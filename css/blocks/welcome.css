@@ -15,8 +15,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 591px;
-	height: 248px;
+	animation: zoom 1.5s;
 	
 }
 
@@ -25,14 +24,16 @@
 }
 
 .central__logo{
+	display: flex;
 	width: 279px;
 	height: 119px;
+	align-items: center;
 }
 .central--asia{
-	
+	opacity: 0;
 	animation: zoom 0.9c ease-in;
 	animation-fill-mode: forwards;
-	opacity: 0 ;
+	
 }
 
 @keyframes zoom{
